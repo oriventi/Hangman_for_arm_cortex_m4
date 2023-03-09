@@ -1,4 +1,4 @@
-# Arm Cortex-M4 Base Project
+# Arm Cortex-M4 University Project
 
 Example Workspace für die Vorlesung Systemnahe Programmierung 2 an der
 DHWB Ravensburg.

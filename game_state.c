@@ -1,6 +1,6 @@
 #include "game_state.h"
 
-// DON'T FORGET TO ADJUST, IHR SCHLAWINER
+// DON'T FORGET TO ADJUST
 #define POSSIBLE_WORDS_LENGTH 4
 
 unsigned int currentBuildLevel = 0;
@@ -13,7 +13,7 @@ unsigned int correctGuessedLettersLength = 0;
 char wordWithoutGuessedLetters[MAX_CORRECT_WORD_LENGTH];
 
 //max length 
-static const char *possibleWords[POSSIBLE_WORDS_LENGTH] = { "simics", "schlawiner", "airbus", "eiersalat" };
+static char *possibleWords[POSSIBLE_WORDS_LENGTH] = { "simics", "schlawiner", "airbus", "eiersalat" };
 
 void initializeCorrectWord( unsigned int randomNumber )
 {

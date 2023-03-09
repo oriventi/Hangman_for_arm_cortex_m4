@@ -10,9 +10,6 @@ void uartInit( void )
   // LCRH <-- LCRH_FEN
   WriteToRegister( 0x4000C000 + 0x2C, 0x10 );
 
-  // TODO: Calculate Baudrate
-  // Todo: Settings for 115200,8,n,1
-
   // [9]    RXE   Receive enable
   // [8]    TXE   Transmit enable
   // [0] UARTEN   UART enable: 1-enable, 0-disable
